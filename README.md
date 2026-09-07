@@ -1,4 +1,4 @@
-﻿# 🕸️ Applied Causal Inference & Structural Causal Models: Beyond Passive Correlation
+﻿# Applied Causal Inference & Structural Causal Models: Beyond Passive Correlation
 
 [![Language](https://img.shields.io/badge/Language-Python%203.10+-3776AB?style=flat&logo=python)](https://www.python.org/)
 [![Frameworks](https://img.shields.io/badge/Frameworks-DoWhy%20%7C%20pgmpy-blue)](https://github.com/py-why/dowhy)
@@ -26,7 +26,7 @@ This repository is an **applied causal inference framework** bridging theoretica
 The repository is structured into modular, interactive research notebooks progressing from foundational theory to empirical counterfactual estimation:
 
 ```
-Causal-Networks/notebooks/
+Applied-Causal-Inference/notebooks/
 ├── 01_potential_outcomes_economic.ipynb   # Rubin Causal Model: ATE, ATT, SUTVA & Selection Bias
 ├── 02_inference_with_pgmpy.ipynb          # Bayesian Networks: Conditional Independence & Belief Propagation
 ├── 03_d_separation.ipynb                  # Graphical Criteria: Chains, Forks, Colliders & M-Bias
@@ -70,8 +70,8 @@ Moving beyond population-average ATE to person-specific CATE:
 ### Quick Start
 ```bash
 # Clone repository
-git clone https://github.com/FRA-0023/Causal-Networks.git
-cd Causal-Networks
+git clone https://github.com/FRA-0023/Applied-Causal-Inference.git
+cd Applied-Causal-Inference
 
 # Install requirements
 pip install dowhy pgmpy networkx scikit-learn pandas matplotlib
